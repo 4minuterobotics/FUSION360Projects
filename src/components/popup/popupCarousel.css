@@ -1,0 +1,13 @@
+/* .modal {
+	--bs-modal-width: 600px;
+	height: 70vh!;
+} */
+h5 {
+	color: white;
+}
+
+.carousel-item img {
+	width: 700px;
+	height: 70vh;
+	object-fit: cover;
+}

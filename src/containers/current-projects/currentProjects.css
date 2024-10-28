@@ -1,0 +1,28 @@
+.currentProjectsCategories {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.currentProjectsCategories h2 {
+	font-size: 3rem;
+	color: white;
+}
+.currentProjectsCategories div {
+	height: 55vh;
+	width: 75%;
+	background-size: cover; /*Ensure the image covers the whole area*/
+	background-position: center; /* Center the image */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 45px;
+}
+.carousel-caption,
+.carousel-indicators {
+	background-color: black;
+}
+
+.carousel-caption a {
+	text-decoration: none; /* Remove underline */
+	font-size: 2rem;
+}
