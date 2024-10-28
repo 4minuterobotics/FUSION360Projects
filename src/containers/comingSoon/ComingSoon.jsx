@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { studentWork } from '../../../public';
 
 const ComingSoon = () => {
 	return (
@@ -19,7 +20,7 @@ const ComingSoon = () => {
 				</div>
 			</div>
 			<div className='container px-5'>
-				<img src='../../../public/images/websiteImages/goldenTornado.webp' className='img-fluid border rounded-3 shadow-lg mb-4' alt='Example image' loading='lazy' />
+				<img src={studentWork} className='img-fluid border rounded-3 shadow-lg mb-4' alt='Example image' loading='lazy' />
 			</div>
 		</div>
 	);
