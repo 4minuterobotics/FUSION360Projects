@@ -1,5 +1,5 @@
 import { studentWork, websiteImages } from '../../public';
-
+import * as pics from '../../public';
 export let classInfo = {
 	teacher: 'Mr. Lawrence',
 	className: 'Fusion 360',
@@ -13,25 +13,25 @@ export let classMaterial = [
 		link: '/architecturalDesign',
 		description:
 			'In these projects, students gain experience creating realistic 3D renderings of architectural designs to visualize buildings, interiors, and landscapes before construction.',
-		displayImage: '../../public/images/studentWork/chenHouse.webp',
+		displayImage: pics.chenHood,
 		classOf2025: {
 			categories: [
 				{
 					name: 'Urban Planning',
 					id: 'urbanPlanning',
 					categoryDescription: 'Neighborhood Design Projects',
-					displayImage: '../../public/images/studentWork/chenHouse.webp',
+					displayImage: pics.chenHood,
 					projects: [
 						{
 							author: 'Xuezhi Chen',
 							description: 'short description of the project',
-							screenshot: '../../public/images/studentWork/chenHouse.webp',
+							screenshot: pics.chenHood,
 							url: 'https://a360.co/3zNJCxu',
 						},
 						{
 							author: 'Massimo Carbone',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.carbonHood,
 							url: 'https://a360.co/4gN0Ewl',
 						},
 						{
@@ -43,7 +43,7 @@ export let classMaterial = [
 						{
 							author: 'Noah Hanks',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.hanksHood,
 							url: 'https://a360.co/3XyRR8y',
 						},
 						{
@@ -55,25 +55,25 @@ export let classMaterial = [
 						{
 							author: 'Brooklyn Knote',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.knoteHood,
 							url: 'https://a360.co/4dmDXfI',
 						},
 						{
 							author: 'Ethan Ramon',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.ramonHood,
 							url: 'https://a360.co/3zEJHU8',
 						},
 						{
 							author: 'Lazaro Riba',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.ribanHood,
 							url: 'https://a360.co/3XTglK2',
 						},
 						{
 							author: 'Rowana Simpson',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.simpsonHood,
 							url: 'https://a360.co/4dA6lLy',
 						},
 						{
@@ -145,7 +145,7 @@ export let classMaterial = [
 						{
 							author: 'Kate McGowan',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.mcgowanHood,
 							url: 'https://a360.co/3TzHv7g',
 						},
 						{
