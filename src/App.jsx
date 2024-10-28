@@ -8,7 +8,7 @@ import './App.css';
 import { classInfo } from './data';
 import { categories } from './data';
 import { classMaterial } from './data';
-import { Home, ArchitectualDesign, ThreeDAnimations, ThreeDPrinting, IndustrialDesign, Login, Admin } from './pages';
+import { Home, ArchitectualDesign, ThreeDAnimations, ThreeDPrinting, IndustrialDesign, ComingSoonPage, Login, Admin } from './pages';
 
 let architecturalDesignData = classMaterial.find((item) => {
 	return item.category == 'Architectural Design';
@@ -24,6 +24,7 @@ function App() {
 				<Route path='/threeDAnimation' element={<ThreeDAnimations />} />
 				<Route path='/threeDPrinting' element={<ThreeDPrinting />} />
 				<Route path='/industrialDesign' element={<IndustrialDesign />} />
+				<Route path='/comingSoon' element={<ComingSoonPage />} />
 				<Route path='/login' element={<Login setIsAuthenticated={setIsAuthenticated} />} />
 				<Route path='/admin' element={isAuthenticated ? <Admin /> : <Navigate to='/login' />} />
 			</Routes>

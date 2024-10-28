@@ -17,6 +17,7 @@ export let classMaterial = [
 		classOf2025: {
 			categories: [
 				{
+					completed: true,
 					name: 'Urban Planning',
 					id: 'urbanPlanning',
 					categoryDescription: 'Neighborhood Design Projects',
@@ -169,6 +170,7 @@ export let classMaterial = [
 					],
 				},
 				{
+					completed: false,
 					name: 'Stadium Architecture',
 					id: 'stadiumArchitecture',
 					categoryDescription: 'short description of the project',
@@ -189,6 +191,7 @@ export let classMaterial = [
 					],
 				},
 				{
+					completed: false,
 					name: 'Attraction Design',
 					id: 'attractionDesign',
 					categoryDescription: 'short description of the project',
@@ -219,6 +222,7 @@ export let classMaterial = [
 		classOf2025: {
 			categories: [
 				{
+					completed: false,
 					name: 'Keychain Pendants',
 					id: 'keychainPendants',
 					categoryDescription: 'short description of the project',
@@ -239,6 +243,7 @@ export let classMaterial = [
 					],
 				},
 				{
+					completed: false,
 					name: 'Personal Project',
 					id: 'personalProject',
 					categoryDescription: 'short description of the project',
@@ -269,6 +274,7 @@ export let classMaterial = [
 		classOf2025: {
 			categories: [
 				{
+					completed: false,
 					name: 'Mechanical CAD Engineering',
 					id: 'mechanicalCADEngineering',
 					categoryDescription: 'short description of the project',
@@ -289,6 +295,7 @@ export let classMaterial = [
 					],
 				},
 				{
+					completed: false,
 					name: 'Product Design',
 					id: 'productDesign',
 					categoryDescription: 'short description of the project',
@@ -319,6 +326,7 @@ export let classMaterial = [
 		classOf2025: {
 			categories: [
 				{
+					completed: false,
 					name: 'Assembly Explosion',
 					id: 'assemblyExplosion',
 					categoryDescription: 'short description of the project',
@@ -339,6 +347,7 @@ export let classMaterial = [
 					],
 				},
 				{
+					completed: false,
 					name: 'Car Race',
 					id: 'carRace',
 					categoryDescription: 'short description of the project',

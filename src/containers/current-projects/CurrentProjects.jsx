@@ -3,6 +3,8 @@
 import React from 'react';
 import './currentProjects.css';
 import { PopupCarousel } from '../../components';
+import { Link } from 'react-router-dom';
+import ComingSoonPage from '../../pages/comingSoon/ComingSoonPage';
 
 export default function CurrentProjects(props) {
 	return (
@@ -13,9 +15,18 @@ export default function CurrentProjects(props) {
 					return (
 						<React.Fragment key={index}>
 							<div id={item.id} style={{ backgroundImage: `url(${item.displayImage})` }}>
-								<a className='btn btn-primary' data-bs-toggle='modal' data-bs-target={`#${item.id}` + 'Modal'} role='button' aria-controls='offcanvasExample'>
+								{item.completed ? (
+									<a className='btn btn-primary' data-bs-toggle='modal' data-bs-target={`#${item.id}` + 'Modal'} role='button' aria-controls='offcanvasExample'>
+										<h2>{item.name}</h2>
+									</a>
+								) : (
+									<Link to='/comingSoon' className='btn btn-primary'>
+										<h2>{item.name}</h2>
+									</Link>
+								)}
+								{/* <a className='btn btn-primary' data-bs-toggle='modal' data-bs-target={`#${item.id}` + 'Modal'} role='button' aria-controls='offcanvasExample'>
 									<h2>{item.name}</h2>
-								</a>
+								</a> */}
 							</div>
 						</React.Fragment>
 					);
