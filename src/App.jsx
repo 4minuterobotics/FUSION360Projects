@@ -2,6 +2,7 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar, Footer } from './containers';
+import { ScrollToTop } from './components';
 // import { navbarContext } from './contexts/navbarContext';
 
 import './App.css';
@@ -17,6 +18,7 @@ function App() {
 	const [isAuthenticated, setIsAuthenticated] = React.useState(false);
 	return (
 		<>
+			<ScrollToTop />
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<Home classInfo={classInfo} classMaterial={classMaterial} />} />
