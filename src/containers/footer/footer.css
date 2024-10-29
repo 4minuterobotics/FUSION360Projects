@@ -1,5 +1,5 @@
 #footer {
-	height: 70vh;
+	height: 50vh;
 	background-color: #0e0e0e;
 	display: flex;
 	flex-direction: column;
@@ -12,9 +12,14 @@ h3 {
 	margin: 10px;
 }
 #footer h2 {
-	font-size: 1.6rem;
-	/* margin: 50px; */
+	font-size: 5vw;
 }
 #footer h3 {
 	font-size: 1rem;
+}
+
+@media (min-width: 1000px) {
+	#footer h2 {
+		font-size: 4vw;
+	}
 }

@@ -50,7 +50,7 @@ export let classMaterial = [
 						{
 							author: 'Kristen Khanpradie',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.kristenHood,
 							url: 'https://a360.co/47TLEZs',
 						},
 						{
@@ -104,13 +104,13 @@ export let classMaterial = [
 						{
 							author: 'Kamron Brown',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.kamHood,
 							url: 'https://a360.co/3A0Aq9a',
 						},
 						{
 							author: 'Ava Forgash',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.avaHood,
 							url: 'https://a360.co/3XG23MA',
 						},
 						{
@@ -122,13 +122,13 @@ export let classMaterial = [
 						{
 							author: 'Enzo Reis',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.enzoHood,
 							url: 'https://a360.co/4gMZuB1',
 						},
 						{
 							author: 'Abigail White',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.abigailHood,
 							url: 'https://a360.co/4fb7la9',
 						},
 						{
@@ -140,7 +140,7 @@ export let classMaterial = [
 						{
 							author: 'Trabis Ward',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.trabisHood,
 							url: 'https://a360.co/4h94CzR',
 						},
 						{
@@ -164,7 +164,7 @@ export let classMaterial = [
 						{
 							author: 'Joshua Cartwright',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.joshHood,
 							url: 'https://a360.co/400M2Dw',
 						},
 					],
