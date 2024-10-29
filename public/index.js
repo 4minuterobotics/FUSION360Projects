@@ -19,7 +19,7 @@ import trabisHood from './images/studentWork/trabisHood.webp';
 import chrisHood from './images/studentWork/chrisHood.webp';
 import jaylnHood from './images/studentWork/jaylnHood.webp';
 import kailyHood from './images/studentWork/kailyHood.webp';
-import maxwellHood from './images/studentWork/maxwellHood';
+import maxwellHood from './images/studentWork/maxwellHood.webp';
 
 export {
 	studentWork,
