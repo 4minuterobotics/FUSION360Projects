@@ -86,19 +86,19 @@ export let classMaterial = [
 						{
 							author: 'Christopher Infants',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.chrisHood,
 							url: 'https://a360.co/47QNvP2',
 						},
 						{
 							author: 'Jaylen Slack',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.jaylnHood,
 							url: 'https://a360.co/3N8wgyS',
 						},
 						{
 							author: 'Kailey Tao',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.kailyHood,
 							url: 'https://a360.co/3XYXaj6',
 						},
 						{
@@ -158,7 +158,7 @@ export let classMaterial = [
 						{
 							author: 'Maxwell Gunter',
 							description: 'short description of the project',
-							screenshot: studentWork,
+							screenshot: pics.maxwellHood,
 							url: 'https://a360.co/3ZY0Umf',
 						},
 						{

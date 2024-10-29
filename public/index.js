@@ -16,6 +16,10 @@ import enzoHood from './images/studentWork/enzoHood.webp';
 import joshHood from './images/studentWork/joshHood.webp';
 import kamHood from './images/studentWork/kamHood.webp';
 import trabisHood from './images/studentWork/trabisHood.webp';
+import chrisHood from './images/studentWork/chrisHood.webp';
+import jaylnHood from './images/studentWork/jaylnHood.webp';
+import kailyHood from './images/studentWork/kailyHood';
+import maxwellHood from './images/studentWork/maxwellHood';
 
 export {
 	studentWork,
@@ -36,4 +40,8 @@ export {
 	joshHood,
 	kamHood,
 	trabisHood,
+	chrisHood,
+	jaylnHood,
+	kailyHood,
+	maxwellHood,
 };
